@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cabañas</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,600&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="js/misFunciones.js"></script>
+    <link rel="stylesheet" href="css/estiloReservaciones.css">
+
+</head>
+
+<body onload="activaNuevo()">
+<h1> </h1>
+<h1>LAS CABAÑAS</h1>
+<a href="reservaciones.html"><img src="img/atras2.png" alt="Regresar"></a>
+
+<h2>Lista Reservaciones</h2>
+<div style="overflow-x:auto;"></div>
+<div id="resultado6"></div>
+<button onclick="traerInformacionReservaciones2()"> Consultar Reservaciones Para Actualizar</button>
+
+<form action="javascript:editarInformacionR()" method="post" id="formulario">
+    <input type="number" id="idR" placeholder="Id" required /> 
+    <input type="date" id="StartDate" placeholder="FechaInicio" required /> 
+    <input type="date" id="EndtDate" placeholder="FechaFin" required />
+    <input type="text" id="status" placeholder="Estado" required />
+    
+<br>
+    <button type="submit">Actualizar Reservacion</button>
+</form>
+</body>
+
+</html>

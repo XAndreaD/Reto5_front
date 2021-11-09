@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cabañas</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,600&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="js/misFunciones.js"></script>
+    <link rel="stylesheet" href="css/estiloAdmin.css">
+
+</head>
+
+<body onload="activaNuevo()">
+<h1> </h1>
+<h1>LAS CABAÑAS </h1>
+<a href="admin.html"><img src="imag/atras2.png" alt="Regresar"></a>
+
+<h2>Lista Administradores</h2>
+<div style="overflow-x:auto;"></div>
+<div id="resultado10"></div>
+<button onclick="traerInformacionAdmin2()"> Consultar Administradores Para Actualizar</button>
+
+
+
+<form action="javascript:editarInformacionAD()" method="post" id="formulario">
+    <input type="number" id="ADid" placeholder="ID" required />
+    <input type="email" id="ADemail" placeholder="Email" required />
+    <input type="text" id="ADpassword" placeholder="Password" required />
+    <input type="text" id="ADname" placeholder="Name" required /> <br>
+
+    <button type="submit">Actualizar Administrador</button>
+</form>
+
+</body>
+
+</html>

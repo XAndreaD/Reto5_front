@@ -1,0 +1,36 @@
+body{
+    background-color: #6a6bc9da;
+    margin-left: 100px;
+    font-family: 'Open Sans';
+}
+
+table, th, td {
+    table-layout: fixed;
+    /*width: 80%;*/
+    border-collapse: collapse;
+    border: 2px solid rgb(194, 117, 209);
+    font-size: 20px;
+}
+
+h1{
+    background-color: rgba(178, 184, 152, 0.377);
+    width: 18%;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+h2{
+    text-align:  justify;
+    background-color: rgba(205, 211, 169, 0.377);
+    width: 24%;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+h4{
+    text-align:  justify;
+    background-color: rgba(201, 214, 165, 0.377);
+    width: 7%;
+    border-radius: 10px;
+    font-size: 18px;
+}

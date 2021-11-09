@@ -1,0 +1,32 @@
+body{
+    margin: 2000;
+    padding: 0;
+    margin-right: 150px;
+    margin-left: 100px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(cab.png);
+    color-adjust: rgb(165, 236, 156);
+    font-family: 'Open Sans', 'cursive';
+}
+
+.content-foo{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    background-color: rgba(163, 179, 144, 0.377);
+    width: 90%;
+    margin: 30px auto;
+    border-radius: 10px;
+    font-size: 60px;
+}
+
+h2{
+    text-align: center;
+    background-color: rgba(136, 151, 116, 0.233);
+    width: 100%;
+    margin: 30px auto;
+    border-radius: 10px;
+    font-size: 30px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cabañas</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,600&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="js/misFunciones.js"></script>
+    <link rel="stylesheet" href="css/estiloCabañas.css">
+
+</head>
+
+<body onload="activaNuevo()">
+<h1> </h1>
+<h1>LAS CABAÑAS</h1>
+<a href="index.html"><img src="imag/atras2.png" alt="Regresar"></a>
+
+<h2>Lista Cabañas</h2>
+<div style="overflow-x:auto;"></div>
+<div id="resultado3"></div>
+<button onclick="traerInformacionCabañas()"> Consultar Cabañas</button>
+
+
+<div id="listado">
+<div id="nuevo">
+
+<form action="javascript:guardarInformacionCabañas()" method="post" id="formulario2">
+    <input type="text" id="Cnombre" placeholder="Name" required />
+    <input type="text" id="Cbrand" placeholder="Brand" required />
+    <input type="number" id="Crooms" placeholder="Rooms" required />
+    <input type="text" id="Cdescription" placeholder="Description" required /> <br>
+    <button type="submit">Guardar Cabañas</button>
+</form>
+</div>
+</div>
+
+<br>
+<h4>Actualizar</h4>
+<a href="cabañas2.html"><img src="imag/editar.png" alt="Update"></a>
+</body>
+
+</html>

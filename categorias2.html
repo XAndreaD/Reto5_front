@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cabañas</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,600&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="js/misFunciones.js"></script>
+    <link rel="stylesheet" href="css/estiloCategorias.css">
+
+</head>
+<body onload="activaNuevo()">
+<h1> </h1>
+<h1>LAS CABAÑAS </h1>
+<a href="categorias.html"><img src="imag/atras2.png" alt="Regresar"></a>
+
+<h2>Lista Categorias</h2>
+<div style="overflow-x:auto;"></div>
+<div id="resultado5"></div>
+<button onclick="traerInformacionCategorias2()"> Consultar Categorias Para Actualizar</button>
+
+<form action="javascript:editarInformacionCat()" method="post" id="formulario">
+    <input type="number" id="Idnombre" placeholder="ID" required />
+    <input type="text" id="Catnombre" placeholder="NombreCategoria" required />
+    <input type="text" id="Catdescripcion" placeholder="Descripcion" required /> <br>
+    <button type="submit">Actualizar Categoria</button>
+</form>
+</body>
+
+</html>
